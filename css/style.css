@@ -36,13 +36,49 @@ header{
 
 main{
 	background-color: orange;
-	height: 500px;
 	clear: left;
+	margin: 10px 0 10px 0;
+	padding-bottom: 10px;
 	}
 
 #welcome_strip{
 	height: 30px;
 	text-align: center;
 	padding-top: 10px;
+	font-size: 20px;
+	background-color: purple;
+}
+
+.slide_container{
+	height: 500px;
+	margin: 10px;
+	background-color: red;
+}
+
+.slide_div{
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.slide_text{
+	padding-top: 150px;
+}
+
+.slide_text h2{
+	font-weight: bold;
 	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.slide_text p{
+	font-size: 18px;
+}
+
+.slidepic{
+	margin-top: 50px;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
 }

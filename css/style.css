@@ -1,3 +1,48 @@
 body{
 font-family: 'Raleway', sans-serif;
+margin: 5px;
+}
+
+header{
+	width: 100%;
+}
+
+.header_section{
+	float: left;
+	height: 200px;
+	width: 33%;
+}
+
+#header1{
+	background-color: red;
+}
+
+#header2{
+	background-color: blue;
+	width: 34%;
+}
+
+#header3{
+	background-color: green;
+}
+
+.headerpic{
+	height: 150px;
+	margin: 20px auto 10px auto;
+	display: block;
+	border: solid 2px black;
+	border-radius: 100px;
+}
+
+main{
+	background-color: orange;
+	height: 500px;
+	clear: left;
+	}
+
+#welcome_strip{
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 24px;
 }
